@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body{
+    font-family: sans-serif;
+    background: #d0b591;
+    color:#554123;
+}
+
+h2{
+    text-align: center;
+}
+
+.col{
+    float: left;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.price-box{
+    background: #554123;
+    color: #554123 ;
+    list-style-type: none;
+    border: 1px solid #554123;
+    margin: 0;
+    padding: 0;
+}
+
+.price-box .header{
+    background: #927b5a;
+    color:#d0b591;
+    font: 25px;
+    text-align: center;
+}
+
+.price-box .header .header-green{
+    background-color: #d0b591;
+}
+
+.price-box li{
+
+    padding: 20px;
+    border-bottom: 20px solid #745e3f;
+    text-align: center;
+    background: #d0b591;
+}
+
+.btn{
+    background: #554123;
+    border: none;
+    color: #d0b591;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+@media(max-width: 760px){
+    .col{
+        width: 100%;
+    }
+}
